@@ -1,0 +1,13 @@
+# 测试前端官网
+curl http://localhost:3000 | head -20
+
+# 测试后台管理
+curl http://localhost:3001 | head -20
+
+# 测试后端API
+curl http://localhost:5000/health
+curl http://localhost:3000
+curl http://localhost:5000/health
+curl http://localhost:3001
+curl http://localhost:5000/api/transactions
+curl http://localhost:5000/api/stats

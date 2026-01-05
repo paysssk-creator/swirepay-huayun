@@ -1,0 +1,5 @@
+cd /mnt/okcomputer/output
+ls -lh
+chmod +x swirepay_setup.sh
+./swirepay_setup.sh
+1
